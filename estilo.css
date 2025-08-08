@@ -1,0 +1,39 @@
+body{background-color: aqua;}  /*la propiedad background-color se utiliza para establecer el color de fondo de un elemento HTML*/
+ 
+h1{color: red;}  /*La propiedad color se utiliza para establecer el color del texto de un elemento HTML*/
+
+li{ /*selector de tipo etiqueta*/
+    background-color: rgb(9, 135, 28);
+    display: inline;  /*la propiedad display Hace que el elemento sea un contenedor en línea o en bloque*/
+}
+
+
+#header_principal{  /*selector de tipo ID*/
+
+    background-color: rgb(220, 235, 12); 
+    height: 100px;
+    padding-left:20px;   /*La propiedad padding se utiliza para establecer el espacio interno de un elemento, es decir, el espacio entre el contenido de un elemento y su contenedor*/
+
+}   
+
+#navegacion_principal{ background-color: bisque;}  
+
+#barra_lateral{
+    
+    background-color: brown;
+    float:left;        /*La propiedad float se utiliza para posicionar un elemento a un lado de su contenedor, izquierda o derecha*/
+    height: 1000px;   /*La propiedad height define la altura de un elemento*/
+}
+
+#seccion{
+    
+    background-color: rgb(151, 247, 92);
+    margin-left: 200px;  /*La propiedad margin controla el espaciado externo de un elemento, es decir, el espacio entre un elemento y otros elementos alrededor de él*/
+}
+
+#footer{
+
+    background-color: blueviolet;
+    clear: both;       /*clear especifica que un elemento no debe estar ubicado al lado de un elemento flotante(float) cuando el elento flotante lo cubre*/
+    margin-top:920px;
+}
